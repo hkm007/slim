@@ -1,5 +1,5 @@
 {
-  "name": "slim",
+  "name": "slimey",
   "version": "1.0.0",
   "description": "A lightweight Svelte event management library using context aware event bus.",
   "author": "hkm007",

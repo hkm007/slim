@@ -1,8 +1,10 @@
-# 🪶 slim — Simple Event Management for Svelte
+# 🪶 slimey — Simple Event Management for Svelte
 
-**slim** is a lightweight, modular, and easy-to-use event management library for Svelte that allows you to register and dispatch custom events using a context-aware bus mechanism.
+**slimey** is a lightweight, modular, and easy-to-use event management library for Svelte that allows you to register and dispatch custom events using a context-aware bus mechanism.
 
 ---
+
+[![npm version](https://img.shields.io/npm/v/slimey.svg)](https://www.npmjs.com/package/slimey)
 
 ## 🚀 Features
 
@@ -18,14 +20,14 @@
 ## 📦 Installation
 
 ```bash
-npm install slim
+npm install slimey
 ```
 
 ⚡ Quick Start
 
 ```bash
 <script>
-  import { useEvents, dispatch } from 'slim';
+  import { useEvents, dispatch } from 'slimey';
 
   // Register an event
   onMount(() => {
@@ -62,7 +64,7 @@ npm install slim
 - Example:
 
   ```bash
-  import { useEvents } from 'slim';
+  import { useEvents } from 'slimey';
   
   useEvents({
     ['LOG_MESSAGE']: {
@@ -101,7 +103,7 @@ npm install slim
 - Example:
 
   ```bash
-  import { dispatch } from 'slim';
+  import { dispatch } from 'slimey';
   
   dispatch('my-event', { message: 'Hello, world!' });
   
@@ -109,7 +111,7 @@ npm install slim
 
 ## 🎯 Why Use slim?
 
-Traditional event handling in Svelte often requires passing callbacks or using external stores. slim simplifies event management by providing a dedicated, context-aware event bus that keeps your components decoupled and scalable.
+Traditional event handling in Svelte often requires passing callbacks or using external stores. slimey simplifies event management by providing a dedicated, context-aware event bus that keeps your components decoupled and scalable.
 
 ## 🤝 Contributing
 
