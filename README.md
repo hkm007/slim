@@ -40,7 +40,7 @@ npm install slimey
   })
 
   function sendEvent() {
-    dispatch('my-event', { message: 'Hello from slim!' });
+    dispatch('my-event', { message: 'Hello from slimey!' });
   }
 </script>
 
@@ -109,7 +109,7 @@ npm install slimey
   
   ```
 
-## 🎯 Why Use slim?
+## 🎯 Why Use slimey?
 
 Traditional event handling in Svelte often requires passing callbacks or using external stores. slimey simplifies event management by providing a dedicated, context-aware event bus that keeps your components decoupled and scalable.
 

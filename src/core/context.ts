@@ -46,7 +46,7 @@ export function createEventBusContext(): EventBusContext {
         log(`(Context) Handler for event "${event}" completed.`);
         // No stopPropagation here by design
       } catch (error) {
-        console.error(`[slim] (Context) Error in handler for event "${event}":`, error);
+        console.error(`[slimey] (Context) Error in handler for event "${event}":`, error);
       }
     }
   }
