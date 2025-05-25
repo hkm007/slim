@@ -1,7 +1,7 @@
 {
   "name": "svelte-slim",
-  "version": "1.0.0",
-  "description": "A lightweight Svelte event management library using context aware event bus.",
+  "version": "1.1.0",
+  "description": "A lightweight event management library for Svelte.",
   "author": "hkm007",
   "license": "MIT",
   "files": [
