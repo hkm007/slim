@@ -48,7 +48,7 @@ class EventBus {
           break;
         }
       } catch (error) {
-        console.error(`[slimey] Error in handler for event "${event}":`, error);
+        console.error(`[slim] Error in handler for event "${event}":`, error);
       }
     }
   }

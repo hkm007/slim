@@ -1,10 +1,10 @@
-# 🪶 slimey — Simple Event Management for Svelte
+# 🪶 slim — Simple Event Management for Svelte
 
-**slimey** is a lightweight, modular, and easy-to-use event management library for Svelte that allows you to register and dispatch custom events using a context-aware bus mechanism.
+**slim** is a lightweight, modular, and easy-to-use event management library for Svelte that allows you to register and dispatch custom events using a context-aware bus mechanism.
 
 ---
 
-[![npm version](https://img.shields.io/npm/v/slimey.svg)](https://www.npmjs.com/package/slimey)
+[![npm version](https://img.shields.io/npm/v/svelte-slim.svg)](https://www.npmjs.com/package/svelte-slim)
 
 ## 🚀 Features
 
@@ -20,14 +20,14 @@
 ## 📦 Installation
 
 ```bash
-npm install slimey
+npm install svelte-slim
 ```
 
 ⚡ Quick Start
 
 ```bash
 <script>
-  import { useEvents, dispatch } from 'slimey';
+  import { useEvents, dispatch } from 'slim';
 
   // Register an event
   onMount(() => {
@@ -40,7 +40,7 @@ npm install slimey
   })
 
   function sendEvent() {
-    dispatch('my-event', { message: 'Hello from slimey!' });
+    dispatch('my-event', { message: 'Hello World!' });
   }
 </script>
 
@@ -64,7 +64,7 @@ npm install slimey
 - Example:
 
   ```bash
-  import { useEvents } from 'slimey';
+  import { useEvents } from 'slim';
   
   useEvents({
     ['LOG_MESSAGE']: {
@@ -103,15 +103,15 @@ npm install slimey
 - Example:
 
   ```bash
-  import { dispatch } from 'slimey';
+  import { dispatch } from 'slim';
   
   dispatch('my-event', { message: 'Hello, world!' });
   
   ```
 
-## 🎯 Why Use slimey?
+## 🎯 Why Use slim?
 
-Traditional event handling in Svelte often requires passing callbacks or using external stores. slimey simplifies event management by providing a dedicated, context-aware event bus that keeps your components decoupled and scalable.
+Traditional event handling in Svelte often requires passing callbacks or using external stores. slim simplifies event management by providing a dedicated, context-aware event bus that keeps your components decoupled and scalable.
 
 ## 🤝 Contributing
 
